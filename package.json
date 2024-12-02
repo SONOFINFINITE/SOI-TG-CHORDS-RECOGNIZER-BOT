@@ -1,0 +1,32 @@
+{
+  "name": "song-recognition-chord-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for song recognition and guitar chords",
+  "main": "src/bot.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/bot.js",
+    "dev": "nodemon src/bot.js"
+  },
+  "dependencies": {
+    "@mistralai/mistralai": "^0.0.7",
+    "axios": "^1.6.2",
+    "cheerio": "^1.0.0-rc.12",
+    "cyrillic-to-translit-js": "^3.2.1",
+    "dotenv": "^16.3.1",
+    "form-data": "^4.0.0",
+    "get-audio-duration": "^4.0.1",
+    "grammy": "^1.19.2",
+    "mp3-parser": "^0.3.0",
+    "music-metadata": "^7.14.0",
+    "node-fetch": "^3.3.0",
+    "node-id3": "^0.2.6",
+    "node-shazam": "^1.0.0",
+    "puppeteer": "^21.5.2",
+    "translate-google": "^1.5.0",
+    "turndown": "^7.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
